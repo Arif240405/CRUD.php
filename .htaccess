@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home$ index.php?page=beranda.php [L]
+RewriteRule ^tambahbuku$ index.php?page=tambahbuku.php [L]
+RewriteRule ^updatebuku$ index.php?page=updatebuku.php [L]
+RewriteRule ^uas$ index.php?page=uas.php [L]
+RewriteRule ^uas2$ index.php?page=uas2.php [L]
+RewriteRule ^cetakpdf$ pdf.php [L]
+RewriteRule ^cetakexcel$ excel.php [L]
+
+
+Options All -Indexes
+</IfModule>
+
